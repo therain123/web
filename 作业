@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		body{
+			width: 1560px;
+			height: 1090px;
+		}
+		#top{
+			width: 1560px;
+			height: 35px;
+			background-color: #f4f4f4;
+		}
+		#top-left{
+			padding-left: 180px;
+			float: left;
+		}
+		#top-right{
+			padding-right: 180px;
+			float: right;
+		}
+		#top-left>a{
+		
+			color: #000;
+			padding:5px;
+		}
+		#top-right>a{
+		
+			color: #000;
+			padding: 5px;
+		}
+		#top2{
+			width: 1560px;
+			height: 120px;
+		}
+		#logo{
+			padding-left: 180px;
+			padding-top: 20px;
+			float: left;
+		}
+		#sousuo{
+			float: left; 
+			padding-left: 198px;
+			padding-top: 38px;
+		}
+		#search{
+			width: 410px;
+			height: 50px;
+			border: 2px solid #f83838;
+			float: left;
+
+			font-size: 1.2em;
+		}
+		#submit{
+			width: 95px;
+			height: 55px;
+			background-color: #f83838;
+			color: #fff;
+			font-size: 20px;
+			text-align: center;
+			float: left;
+		}
+		#shopping{
+			width: 150px;
+			height: 40px;
+			background-color: #f5f5f5;
+			border: 1px solid #e3e3e3;
+			margin-top: 40px;
+			margin-right:180px;
+			padding-top: 10px;
+			text-align: center;
+			float: right;
+		}
+		#top3{
+			border-bottom: 2px solid #000000;
+			width: 1560px;
+			
+	
+		}
+		#top3>ul{margin-bottom:5px ;}
+		#top3>ul>li{
+			display: inline-block;
+			width: 90px;
+			height: 50px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 50px;
+			margin-left: 75px;
+		}
+		#top3>ul>li>a{color: #000000;}
+	
+
+		#top3>ul>li:hover{
+			background-color: #fd0304;
+			border-radius:0.5em;
+			color: #ffffff;
+
+		}
+
+		#daohang{
+			width: 1560px;
+			height: 655px;
+			background-color: #fbfbfb;
+		}
+		 #location{
+			width: 1560px;
+			line-height: 65px;
+			padding-left: 180px;
+		}
+		#fenlei{
+			width: 215px;
+			height: 564px;
+			float: left;
+			margin-left: 180px;
+		}
+		#a{
+			height: 45px;
+			background-color: #ffffff;
+			line-height: 45px;
+			text-align: center;
+		}
+		#a>img{
+			position: relative;
+			top: 7px;
+			right: 15px;
+		}
+		#b{
+			height: 510px;
+			background-color: #ffffff;
+			margin-top: 10px;
+		}
+		#b>ul>li{
+			line-height: 45px;
+			padding-left: 78px;
+			list-style-type: none;
+		}
+		#b>ul>li>a{
+			color: #000;
+		}
+		#b>ul>li>a:hover{
+			color: #ff9792;
+		}
+		#b>ul>li>a:visited{
+			color: #ff9792;
+		}
+        #shangpin{
+            width: 980px;
+			height: 564px;
+			background-color: #ffffff;
+			margin-right: 180px;
+			float: right;
+			text-align: center;
+            }
+        #shangpin>li{
+         	list-style-type :none;
+         	line-height :center;
+         	text-align: center bottom;
+         	display: inline-block;
+         	float: left;
+         	width: 222px;
+			height: 253px;
+			border:1px solid #dbdbdb;
+			float: left;
+			margin-top: 20px;
+			margin-left: 17px;
+         	}
+        #shangpin>li>div{
+			width: 222px;
+			text-align: center;
+			margin-top: 15px;
+		    }
+	    #shangpin>li>p>span{color: #a3a3a3;}
+
+	   #bottom{
+	   	width: 1560px;
+	   	height: 250px;
+	   	background-color:#2e2e2e;
+	   	float: left;
+	   }
+	   #bottom>#bottom1{
+	   	height: 134px;
+	   	margin-left: 180px;
+	   border-bottom: 1px solid #454545;
+	   	float: left;
+	   }
+	   #bottom>#bottom1>ul{
+	   	font-size: 20px;
+	   	margin-right: 160px;
+	   	float: left;
+
+	   }
+	   #bottom>#bottom1>li{
+	   	list-style-type: none;
+	   	font-size: 20px;
+	   }
+	   #bottom>#bottom1>ul>li>a{
+	   	color: #ffffff;
+	   }
+	   #bottom>#bottom2{
+	    float: left;
+	    padding-left: 450px;
+	   	color: #6f6f6f;
+	   	
+	   }	
+	   *{
+			padding: 0px;
+			margin: 0px;
+		}
+		a{
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="top-left">
+			<a href="#">我的收藏</a>
+			<a href="#">E享之族手机版</a>
+			<a href="#"><img src="imgs/06.png">328203328</a>
+		</div>
+		<div id="top-right">
+			<a href="#">扫描加入</a>
+			<a href="#">欢迎来到E族之家</a>
+			<a href="#">请登录</a>|
+			<a href="#">注册</a>		
+		</div>
+	</div>
+	<div id="top2">
+		<div id="logo"><img src="imgs/05.png"></div>
+		<div id="sousuo">
+			<form>
+			<input id="search" type="text" name="search" value="请输入关键词！">
+			<input id="submit" type="submit"  value="搜索">
+			</form>
+		</div>
+		<div id="shopping"><img src="imgs/07.png"> 购物车（<span style="color: red">0</span>）件</div>
+	</div>
+	<div id="top3">
+	<ul>
+			<li style="margin-left: 200px"><a href="#">首页</a></li>
+			<li><a href="#">E族生活</a></li>
+			<li><a href="#">E族服务</a></li>
+			<li><a href="#">E族爱心</a></li>
+		</ul>
+	</div>
+		<div id="daohang">
+		<div id="location">当前位置：E族爱心>食品</div>
+		<div id="fenlei">
+			<div id="a"><img src="imgs/08.png">全部分类</div>
+			<div id="b">
+				<ul>
+					<li><a href="#">>食品</a></li>
+					<li><a href="#">>生活用品</a></li>
+				</ul>
+			</div>
+		</div>
+		<ul id="shangpin">
+	      	<li><div><img style="margin-top: 17px" src="imgs/01.png"></div>
+				<p><span>精品辣椒100g</span>
+				<br>¥ 90.00</p></li>
+            <li><div><img style="margin-top: 17px"  src="imgs/02.png"></div>
+				<p><span>特级百香果3斤</span>
+				<br>¥ 90.00</p></li>
+            <li><div><img src="imgs/03.png"></div>
+				<p><span>万威啤酒500ml</span>
+				<br>¥ 90.00</p></li>
+            <li><div><img src="imgs/04.png"></div>
+				<p><span>万威啤酒500ml</span>
+				<br>¥ 90.00</p></li>
+			<li><div><img style="margin-top: 17px"  src="imgs/01.png"></div>
+				<p><span>精品辣椒100g</span>
+				<br>¥ 90.00</p></li>
+            <li><div><img style="margin-top: 17px"  src="imgs/02.png"></div>
+				<p><span>特级百香果3斤</span>
+				<br>¥ 90.00</p></li>
+            <li><div><img src="imgs/03.png"></div>
+				<p><span>万威啤酒500ml</span>
+				<br>¥ 90.00</p></li>
+			<li><div><img src="imgs/04.png"></div>
+				<p><span>万威啤酒500ml</span>
+				<br>¥ 90.00</p></li>
+          </ul>
+	</div>
+	<div id="bottom">
+	     <div  id="bottom1">
+			<ul>
+				<li><a href="#">新手上路</a></li>
+				<li><a href="#">售后流程</a></li>
+				<li><a href="#">购物流程</a></li>
+				<li><a href="#">订购方式</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">配送方式</a></li>
+				<li><a href="#">货到付快区域</a></li>
+				<li><a href="#">配送支付查询</a></li>
+				<li><a href="#">支付方式说明</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">购物指南</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">订购流程</a></li>
+				<li><a href="#">注册新会员</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">售后服务</a></li>
+				<li><a href="#">退换货原则</a></li>
+				<li><a href="#">售后服务保证</a></li>
+				<li><a href="#">换货流程</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">网站故障报告</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">投诉与建议</a></li>
+			</ul>
+		</div>	
+		
+		<div id="bottom2">
+			<p> E族生活 | 居家维修保养 | 住宿优惠信息 | 出行接送 | E族活动 | E族爱心 | 积分商城 </p>
+			<br>
+			<p>© 2017-2018 E族之家 版权所有，并保留所有权利。ICP备案证书号:粤ICP备17127392号</p>
+
+		</div>
+	</div>
+</body>
+</html>
